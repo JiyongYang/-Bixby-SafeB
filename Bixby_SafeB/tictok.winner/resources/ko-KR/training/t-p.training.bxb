@@ -1,0 +1,50 @@
+train (t-p3035qvtpyock58cprjv85d2u) {
+  utterance ("[g:Results] (근처)[v:Near:Nearby]에 있는 (대피소)[v:ServiceName:shelter] 좀 (찾아줘)[v:Guidance:Guide]")
+  plan (Y2BjkCzISaxML8ovzUvRK8/My0st0gtKLS7NKSnGJuWeWuKZl5bPIIVFqjQzJTEvOZVBDFPOLzWxiEEWUzw4tagsMznVLzE3lYG3LLNMrzg1Jw0ompPGwMrAyMDEwMzAAmQxANkwiAAsQAxRwQAA)
+  last-modified (1571920012041)
+}
+train (t-p3p91xmr03a96eg5752ii0glp) {
+  utterance ("[g:Hospital,r:GoToTheHospitalConcept] (가장)[v:Most:most] (가까운)[v:Near:Nearby] 거리에 있는 (피부과)[v:Kinds] 좀 알려줘")
+  plan (XYpBCsJADEV/1Wo3bhQ9geu5hItWRBfaC5Sa4uAwKU2s13ewikwT8uG9fGTYqq2VH+ZlvafOFCyt1cphF/ucSy7v9Hvv2dfUKjZx60LydCpjnZMefMNYx/po/U2wiuWJRcfuTFWHZW97I+Qacw2BBRJMMMUMKeaB8OVhkw//Jw03NIN9Aw==)
+  last-modified (1572238132716)
+}
+train (t-p3u4z7yuedpamd8a9odag4a2w) {
+  utterance ("[g:Hospital,r:GoToTheHospitalConcept] (가장)[v:Most:most] (가까운)[v:Near:Nearby] 거리에 있는 (병원)[v:ServiceName:hospital] 좀 찾아줘")
+  plan (XcoxDsIwDAXQX6DAwoIEEjtzLsFQGOgAvUAUOSIixFVjyvWJKAiltjz8548ltuKM8F29XAjUqSPH1on22OdeccPNjX7vAwdDrWCTty4Un17imCuSU7CMdc5njjK2mnSHXW5X6npnqNYPwqp3vYrkbVJvsUCBCaaYocQ8JXzzsMUn/6dMNzSTvgE=)
+  last-modified (1572238126241)
+}
+train (t-p4s2av92z5zm149ozphi5518p) {
+  utterance ("[g:tictok.winner.Hospital,r:tictok.winner.GoToTheHospitalConcept] (제일)[v:tictok.winner.Most:most] (가까운)[v:tictok.winner.Near:Nearby] (병원)[v:tictok.winner.ServiceName:hospital] (알려줘)[v:tictok.winner.Guidance:Guide]")
+  plan (Xc07DsIwDAbgvzwKDCxIILEz9xIMhYEO0AtEwRURIa4at1yfCFGJxJYHf7ZsrLATo4Wfxds4R11xYt8aURaH2EuuuX7QOD6y09QKtvHWlXxvxadckpxdw+mvsjd3Fe5gE/uFvaRWkeqwj+1G3WA0VepFWA9mKDzZJqhtsESGCaaYYY4ci9DjJ2NmX/mPPNS4HyYf)
+  last-modified (1572238738561)
+}
+train (t-p8pu6ec6l9m5650fjn1yx1g4d) {
+  utterance ("[g:tictok.winner.Hospital,r:tictok.winner.GoToTheHospitalConcept] (제일)[v:tictok.winner.Most:most] (가까운)[v:tictok.winner.Near:Nearby] 거리에 있는 (안과)[v:tictok.winner.Kinds] (찾아줘)[v:Guidance:Guide]")
+  plan (XY1NCsJADIVf/am6cKPoCVzPJVxUEV1oL1DaFAeHSemk9foO4oAzCXmQ7z0SrLAXXQu/1FtbS706seu0VAaHmBdccvmkYB/Z1tQJdnHqTm4w4lJckJxty+mvYtBN5e9gG/OLto3DJoZXdpKyG1U91qMelSPTqocXLJFhgilmmCPHwu/4kdDZl/xX7ifkvfMB)
+  last-modified (1572238888290)
+}
+train (t-phcb6yuk752qi2ug1id6hzy4u) {
+  utterance ("[g:tictok.winner.Shelter,r:tictok.winner.GoToTheShelterConcept] (제일)[v:tictok.winner.Most:most] (가까운)[v:tictok.winner.Near:Nearby] 거리 (대피소)[v:tictok.winner.ServiceName:shelter] (찾아줘)[v:tictok.winner.Guidance:Guide]")
+  plan (Xc69CsIwEAfwf/2oOrgICs7ueQmH4mAH7QuEeKXBmEhyja9vkBZscmS4331w2GDPWrF7io+2lry4d2SYPE5Trlzjmo6G6tlZRW/OZ28UesMh54r4YluHQ8a9fsi0B7upX13g3GqSHsfsUvJRK6rli7CNOopApk1qWqxRYIY5FliixCrlGGSM4if/r0x/7E+VLw==)
+  last-modified (1572238594264)
+}
+train (t-pn9068xjuxu69b6yws48cq8gk) {
+  utterance ([g:NaviURL] 내비로 안내해줘)
+  plan (Y2BkEC3JTC7Jz9Yrz8zLSy3S80ssywwN8mEAAUYQAQA=)
+  last-modified (1572060020357)
+}
+train (t-prtkpn34uu8q9j4o24eqp1ziz) {
+  utterance ("[g:tictok.winner.Shelter,r:tictok.winner.GoToTheShelterConcept] (가장)[v:tictok.winner.Most:most] (가까운)[v:tictok.winner.Near:Nearby] (대피소)[v:tictok.winner.ServiceName:shelter] (찾아줘)[v:tictok.winner.Guidance:Guide]")
+  plan (Xc69CsIwEAfwf/2oOrgICs7ueQmH4mAH7QuEeKXBmEhyja9vkBZscmS4331w2GDPWrF7io+2lry4d2SYPE5Trlzjmo6G6tlZRW/OZ28UesMh54r4YluHQ8a9fsi0B7upX13g3GqSHsfsUvJRK6rli7CNOopApk1qWqxRYIY5FliixCrlGGSM4if/r0x/7E+VLw==)
+  last-modified (1572238442375)
+}
+train (t-pvdz1egrh7c575ax20254z6yv) {
+  utterance ([g:GradeInfo] 등급 정보가 뭐야)
+  plan (Y2BkEC/JTC7Jz9Yrz8zLSy3Scy9KTEn1zEvLZwABRhABAA==)
+  last-modified (1572182075219)
+}
+train (t-pvxdg91rjkidff5ge19bp3rcr) {
+  utterance ("[g:Hospital,r:GoToTheHospitalConcept] (가장)[v:Most:most] (가까운)[v:Near:Nearby] (피부과)[v:Kinds] 좀 (알려줘)[v:Guidance:Guide]")
+  plan (XY1NCsJADIVf/am6cKPoCVzPJVxUEV1oL1DaFAeHSemk9foO4oAzCXmQ7z0SrLAXXQu/1FtbS706seu0VAaHmBdccvmkYB/Z1tQJdnHqTm4w4lJckJxty+mvYtBN5e9gG/OLto3DJoZXdpKyG1U91qMelSPTqocXLJFhgilmmCPHwu/4kdDZl/xX7ifkvfMB)
+  last-modified (1572232130371)
+}

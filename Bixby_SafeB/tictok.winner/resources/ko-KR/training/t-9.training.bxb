@@ -1,0 +1,15 @@
+train (t-90e93c5o7idi56t9k6slkx2gr) {
+  utterance ("[g:Results] (근처)[v:Near:Nearby]에 있는 (비뇨기과)[v:Kinds] 좀 (알려줘)[v:Guidance:Guide]")
+  plan (Y2BjkCzISaxML8ovzUvRK8/My0st0gtKLS7NKSnGJuWeWuKZl5bPIIVFqjQzJTEvOZVBHFPOOzMvpZhBDFPCLzWxiIG3LLNMrzg1J00vGEgwsDIwMjAxMDOwAFkMQDYMIgALEENUMAAA)
+  last-modified (1571920610520)
+}
+train (t-9g6yr41khdhlcn4466ny9qbcs) {
+  utterance ("[g:Results] (가까이 있는)[v:Near:Nearby] (대피소)[v:ServiceName:shelter] (알려줘)[v:Guidance:Guide]")
+  plan (Y2BjkCzISaxML8ovzUvRK8/My0st0gtKLS7NKSnGJuWeWuKZl5bPIIVFqjQzJTEvOZVBDFPOLzWxiEEWUzw4tagsMznVLzE3lYG3LLNMrzg1Jw0ompPGwMrAyMDEwMzAAmQxANkwiAAsQAxRwQAA)
+  last-modified (1571919770387)
+}
+train (t-9q5jkkalmowjlgjginf0eiexb) {
+  utterance ("[g:Results] (주변)[v:Near:Nearby]에 있는 (대피소)[v:ServiceName:shelter] 좀 (찾아줘)[v:Guidance:Guide]")
+  plan (Y2BjkCzISaxML8ovzUvRK8/My0st0gtKLS7NKSnGJuWeWuKZl5bPIIVFqjQzJTEvOZVBDFPOLzWxiEEWUzw4tagsMznVLzE3lYG3LLNMrzg1Jw0ompPGwMrAyMDEwMzAAmQxANkwiAAsQAxRwQAA)
+  last-modified (1571921281967)
+}

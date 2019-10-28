@@ -1,0 +1,40 @@
+train (t-06sk74cy3nmnrqhc6hv6au5q2) {
+  utterance ("[g:Results] (월요일)[v:Date] (오전)[v:AMorPM:AM] (9시)[v:Hour]에 진료하는 (산부인과)[v:Kinds] (알려줘)[v:Guidance:Guide]")
+  plan (Y+BgEC3JTC7Jz9Yrz8zLSy3SC0otLs0pKUYXdk8t8cxLy2cQQRV29M0vCvBlEEIVdUksSWUQQzOgNDMlMS85FV2tR35pEYMwqph3Zl5KMQNvWWaZXnFqTppeMJBgYGdgZGBiYGZgYWBlYAPyGIB8ZIgK2IAYoZoBAA==)
+  last-modified (1572110580344)
+}
+train (t-081shdxaa4ne1t5xoskp8murh) {
+  utterance ("[g:tictok.winner.Hospital,r:tictok.winner.GoToTheHospitalConcept] (제일)[v:tictok.winner.Most:most] (가까운)[v:tictok.winner.Near:Nearby] (안과)[v:tictok.winner.Kinds] 좀 (보여줘)[v:tictok.winner.Guidance:Guide]")
+  plan (XY1NCsJADIVf/am6cKPoCVzPJVxUEV1oL1DaFAeHSemk9foO4oAzCXmQ7z0SrLAXXQu/1FtbS706seu0VAaHmBdccvmkYB/Z1tQJdnHqTm4w4lJckJxty+mvYtBN5e9gG/OLto3DJoZXdpKyG1U91qMelSPTqocXLJFhgilmmCPHwu/4kdDZl/xX7ifkvfMB)
+  last-modified (1572238851393)
+}
+train (t-09manvhflhwyc5z1plw5chswc) {
+  utterance ("[g:Hospital,r:GoToTheHospitalConcept] (가장)[v:Most:most] (가까운)[v:Near:Nearby] 거리에 있는 (산부인과)[v:Kinds] 좀 찾아줘")
+  plan (XYpBCsJADEV/1Wo3bhQ9geu5hItWRBfaC5Sa4uAwKU2s13ewikwT8uG9fGTYqq2VH+ZlvafOFCyt1cphF/ucSy7v9Hvv2dfUKjZx60LydCpjnZMefMNYx/po/U2wiuWJRcfuTFWHZW97I+Qacw2BBRJMMMUMKeaB8OVhkw//Jw03NIN9Aw==)
+  last-modified (1572238125767)
+}
+train (t-0c9qhtn9zft5uvhe23y6b6qq3) {
+  utterance ("[g:Hospital,r:GoToTheHospitalConcept] (가장)[v:Most:most] (가까운)[v:Near:Nearby] (비뇨기과)[v:Kinds] 좀 (알려줘)[v:Guidance:Guide]")
+  plan (XY1NCsJADIVf/am6cKPoCVzPJVxUEV1oL1DaFAeHSemk9foO4oAzCXmQ7z0SrLAXXQu/1FtbS706seu0VAaHmBdccvmkYB/Z1tQJdnHqTm4w4lJckJxty+mvYtBN5e9gG/OLto3DJoZXdpKyG1U91qMelSPTqocXLJFhgilmmCPHwu/4kdDZl/xX7ifkvfMB)
+  last-modified (1572232129939)
+}
+train (t-0k7tmjhwlngsba4uvbdcqlmla) {
+  utterance ("[g:Results] (근처)[v:Near:Nearby] 위치에 있는 (피부과)[v:Kinds] 좀 (알려줘)[v:Guidance:Guide]")
+  plan (Y2BjEC3JTC7Jz9Yrz8zLSy3SC0otLs0pKUYXdk8t8cxLy2cQQxMuzUxJzEtOZRBGFffOzEspZhBCFfRLTSxi4C3LLNMrTs1J0wsGEgysDIwMTAzMDCxAFgOQDYMIwALEEBUMAA==)
+  last-modified (1571925292415)
+}
+train (t-0slsqz2z1mgs3ihmqrboo0iah) {
+  utterance ([g:NaviURL] 가는 길 내비게이션으로 보여줘)
+  plan (Y2BkEC3JTC7Jz9Yrz8zLSy3S80ssywwN8mEAAUYQAQA=)
+  last-modified (1572059937081)
+}
+train (t-0viw29d2hyww67m26zsfibvhf) {
+  utterance ("[g:Results] (가까운)[v:Near:Nearby] 위치에 있는 (대피소)[v:ServiceName:shelter] 좀 (알려줘)[v:Guidance:Guide]")
+  plan (Y2BjEC3JTC7Jz9Yrz8zLSy3SC0otLs0pKUYXdk8t8cxLy2cQQxMuzUxJzEtOZRBCFfdLTSxikEQVC04tKstMTvVLzE1l4C3LLNMrTs1JA4rmpDGwMjAyMDEwM7AAWQxANgwiAAsQQ1QwAAA=)
+  last-modified (1571925318560)
+}
+train (t-0y5xpgfwgdbscta0epq50upac) {
+  utterance ("[g:Results] (수요일)[v:Date] (오후)[v:AMorPM:PM] (11시)[v:Hour]에 열려 있는 (약국)[v:ServiceName:pharmacy] (알려줘)[v:Guidance:Guide]")
+  plan (XcxLCgIxEATQ8jfOxo2o4CVyB0EYXYyIniDEDjQTE8jP65udJt30oh5Fo8c+sopuEh+2lrx4UEgmhpYHilerHXY1n0bn7yO2tZ5lJByaB4lf0ipquxeXPI61PclnVnSTb8ImcxaBjC5qNNaYYY4FllihKwkl/289XblfG18=)
+  last-modified (1572110580257)
+}

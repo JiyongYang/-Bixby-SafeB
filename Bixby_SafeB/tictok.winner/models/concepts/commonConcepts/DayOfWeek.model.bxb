@@ -1,0 +1,3 @@
+integer (DayOfWeek) {
+  description (한 주를 나타내는 컨샙)
+}

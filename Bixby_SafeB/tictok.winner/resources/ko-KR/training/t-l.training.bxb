@@ -1,0 +1,25 @@
+train (t-l9pgpjtkxbxmjlslgtrhmsy42) {
+  utterance ("[g:tictok.winner.Pharmacy,r:tictok.winner.GoToThePharmacyConcept] (가장)[v:tictok.winner.Most:most] (가까운)[v:tictok.winner.Near:Nearby] 거리 (약국)[v:tictok.winner.ServiceName:pharmacy] 좀 (알려줘)[v:tictok.winner.Guidance:Guide]")
+  plan (Xc3NCsIwDAfw//yYevAiKHj33JfwMDw4RPcCpWas2LXSZhPf3iIO7BJyyC8hwQo71ordQ7y0teTFpZG+leqNQ+qFq1zV0DA+OqvoydimW1cKneEw5oL4ZGs3/lV0+i7jHWxSP7vAYytJeuxTu5HvtaJStoR1r3sRyNRRTY0lMkwwxQxz5FjEHj8ZMvvKf+Sxhv04+QA=)
+  last-modified (1572238195328)
+}
+train (t-l9u56n8t919k0e3g2zv4rytju) {
+  utterance ("[g:Results] (주변)[v:Near:Nearby]에 있는 (안과)[v:Kinds] 좀 (찾아줘)[v:Guidance:Guide]")
+  plan (Y2BjkCzISaxML8ovzUvRK8/My0st0gtKLS7NKSnGJuWeWuKZl5bPIIVFqjQzJTEvOZVBHFPOOzMvpZhBDFPCLzWxiIG3LLNMrzg1J00vGEgwsDIwMjAxMDOwAFkMQDYMIgALEENUMAAA)
+  last-modified (1571922733503)
+}
+train (t-lhgf2difee2g3yqtnvr7r0w06) {
+  utterance ("[g:Hospital,r:GoToTheHospitalConcept] (가장)[v:Most:most] (가까운)[v:Near:Nearby] 거리 (정형외과)[v:Kinds] (찾아줘)[v:Guidance:Guide]")
+  plan (XY1NCsJADIVf/am6cKPoCVzPJVxUEV1oL1DaFAeHSemk9foO4oAzCXmQ7z0SrLAXXQu/1FtbS706seu0VAaHmBdccvmkYB/Z1tQJdnHqTm4w4lJckJxty+mvYtBN5e9gG/OLto3DJoZXdpKyG1U91qMelSPTqocXLJFhgilmmCPHwu/4kdDZl/xX7ifkvfMB)
+  last-modified (1572232520966)
+}
+train (t-ll2qlf6ylilytoa4pvnr3x58n) {
+  utterance ("[g:Results] (근처)[v:Near:Nearby] (산부인과)[v:Kinds] (찾아줘)[v:Guidance:Guide]")
+  plan (Y2BjkCzISaxML8ovzUvRK8/My0st0gtKLS7NKSnGJuWeWuKZl5bPIIVFqjQzJTEvOZVBHFPOOzMvpZhBDFPCLzWxiIG3LLNMrzg1J00vGEgwsDIwMjAxMDOwAFkMQDYMIgALEENUMAAA)
+  last-modified (1571919672873)
+}
+train (t-loldx3b42mwjarakpfh7qaq6v) {
+  utterance ("[g:Hospital,r:GoToTheHospitalConcept] (가장)[v:Most:most] (가까운)[v:Near:Nearby] (성형외과)[v:Kinds] 좀 (알려줘)[v:Guidance:Guide]")
+  plan (XY1NCsJADIVf/am6cKPoCVzPJVxUEV1oL1DaFAeHSemk9foO4oAzCXmQ7z0SrLAXXQu/1FtbS706seu0VAaHmBdccvmkYB/Z1tQJdnHqTm4w4lJckJxty+mvYtBN5e9gG/OLto3DJoZXdpKyG1U91qMelSPTqocXLJFhgilmmCPHwu/4kdDZl/xX7ifkvfMB)
+  last-modified (1572232144666)
+}

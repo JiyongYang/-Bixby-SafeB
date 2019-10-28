@@ -1,0 +1,4 @@
+enum (Time) {
+  description (시간 관련 발화)
+  symbol (__SYMBOL__)
+}

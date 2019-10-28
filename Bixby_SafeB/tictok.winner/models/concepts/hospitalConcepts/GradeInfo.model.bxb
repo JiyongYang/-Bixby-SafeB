@@ -1,0 +1,35 @@
+structure (GradeInfo) {
+  description (병원 평가 정보)
+  property (title) {
+    type (Title)
+    min (Optional) max (One)
+  }
+  property (surmary){
+    type (Surmary)
+    min (Optional) max (One)
+  }
+  property (standard){
+    type (Standard)
+    min (Optional) max (One)
+  }
+  property (num1){
+    type (Num1)
+    min (Optional) max (One)
+  }
+  property (num2){
+    type (Num2)
+    min (Optional) max (One)
+  }
+  property (num3){
+    type (Num3)
+    min (Optional) max (One)
+  }
+  property (ref){
+    type (Ref)
+    min (Optional) max (One)
+  }
+  property (hurl){
+    type (Hurl)
+    min (Optional) max (One)
+  }
+}

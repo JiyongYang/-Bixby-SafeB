@@ -1,0 +1,6 @@
+text (Kinds) {
+  description (병원 종류)
+  features{
+    transient
+  }
+}

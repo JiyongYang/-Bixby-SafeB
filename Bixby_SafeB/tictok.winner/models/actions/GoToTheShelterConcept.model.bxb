@@ -1,0 +1,20 @@
+action (GoToTheShelterConcept) {
+  description (Results컨셉에서 Shelter 사이즈가 1일때 Shelter 컨샙으로 값 이동)
+  type(Constructor)
+  collect {
+    input (results) {
+      type (Results)
+      min (Optional) max (One)
+    }
+  }
+  output (Shelter){
+    on-empty{
+      halt{
+        dialog("알 수 없는 오류 입니다.")
+      }
+    }
+    evaluate{
+      $expr(results.shelter)
+    }
+  }
+}

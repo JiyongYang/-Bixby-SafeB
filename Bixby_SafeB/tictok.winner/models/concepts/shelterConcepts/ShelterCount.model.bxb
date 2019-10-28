@@ -1,0 +1,3 @@
+integer (ShelterCount) {
+  description (대피소 결과 리스트의 사이즈)
+}

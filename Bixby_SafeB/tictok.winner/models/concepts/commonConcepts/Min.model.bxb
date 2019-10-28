@@ -1,0 +1,6 @@
+text (Min) {
+  description (__DESCRIPTION__)
+  features{
+    transient
+  }
+}

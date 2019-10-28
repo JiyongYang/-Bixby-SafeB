@@ -1,0 +1,7 @@
+enum (Guidance) {
+  description (검색관련 발화)
+  symbol (Guide)
+  features{
+    transient
+  }
+}

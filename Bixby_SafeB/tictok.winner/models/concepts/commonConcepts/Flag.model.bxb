@@ -1,0 +1,3 @@
+integer (Flag) {
+  description (flag 값으 변화로 뿌려주는 UI가 달라짐)
+}

@@ -1,0 +1,8 @@
+enum (AMorPM) {
+  description (오전 오후 구분하는 컨셉)
+  symbol (AM)
+  symbol (PM)
+  features{
+    transient
+  }
+}

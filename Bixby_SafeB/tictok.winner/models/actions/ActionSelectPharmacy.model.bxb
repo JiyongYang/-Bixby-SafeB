@@ -1,0 +1,21 @@
+action (ActionSelectPharmacy) {
+  description (__DESCRIPTION__)
+  type(Search)
+  collect {
+    input (results) {
+      type (Results)
+      min (Required) max (One)
+    }
+    input(order){
+      type(Order)
+      min (Required) max (One)
+    }
+  }
+  output (Pharmacy){
+    on-empty{
+      halt{
+        dialog("다시 한 번 말해주세요")
+      }
+    }
+  }
+}

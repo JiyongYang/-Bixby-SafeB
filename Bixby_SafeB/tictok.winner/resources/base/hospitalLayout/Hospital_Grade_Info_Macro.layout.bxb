@@ -1,0 +1,35 @@
+layout-macro-def (Hospital_Grade_Info_Macro) {
+  params {
+    param (hospital) {
+      type (Hospital)
+      min (Required) max (One)
+    }
+  }
+  content{
+    section{
+      content{
+        cell-card{
+          slot1{
+            image{
+              shape (Square)
+              url("/images/icons/click-mark.png")
+            }
+          }
+          slot2{
+            content{
+              order (PrimarySecondary)
+              primary("병원 등급정보 란?")
+              secondary("여기를 눌러보세요.")
+            }
+          }
+          on-click{
+            intent{
+              goal: HospitalGradeInfo
+              value: $expr(hospital.gradeinfo)
+            }
+          }
+        }
+      }
+    }
+  }
+}
