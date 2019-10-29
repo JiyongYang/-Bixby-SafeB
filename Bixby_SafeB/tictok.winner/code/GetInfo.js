@@ -286,7 +286,7 @@ function getShelterInfo(near, area, most, point, self){
       if(response[i].dist != undefined)
         shelter.dist = Math.round(response[i].dist.toFixed(3) * 1000);
       else shelter.dist = Math.round(getDistance(lat,lon,latitude,longitude).toFixed(3) * 1000);
-      shelter.naviurl = googleNaviURL + lat + "," + lon + "/" + latitude + "," + longitude;
+      shelter.naviurl = 'daummaps://route?sp=' + lat + ',' + lon + '&ep=' + latitude + ',' + longitude +'&by=CAR';
       shelter.phonenumber = response[i].managementTelNo;
       shelter.managementname = response[i].managementGroupName;
       point.latitude = latitude;
@@ -365,7 +365,7 @@ function getPharmacyInfo(near, guidance, area, point, most, self, hour, min, amo
         else pharmacy.dist = Math.round(getDistance(lat,lon,latitude,longitude).toFixed(3) * 1000);
         pharmacy.url = googleMapURL + latitude + "," + longitude;
         pharmacy.flag = 1;
-        pharmacy.naviurl = googleNaviURL + lat + "," + lon + "/" + latitude + "," + longitude;
+        pharmacy.naviurl = 'daummaps://route?sp=' + lat + ',' + lon + '&ep=' + latitude + ',' + longitude +'&by=CAR';
 
         point.latitude = latitude;
         point.longitude = longitude;
@@ -432,7 +432,7 @@ function getPharmacyInfo(near, guidance, area, point, most, self, hour, min, amo
         else pharmacy.dist = Math.round(getDistance(lat,lon,latitude,longitude).toFixed(3) * 1000);
         pharmacy.url = googleMapURL + latitude + "," + longitude;
         pharmacy.flag = 4;
-        pharmacy.naviurl = googleNaviURL + lat + "," + lon + "/" + latitude + "," + longitude;
+        pharmacy.naviurl = 'daummaps://route?sp=' + lat + ',' + lon + '&ep=' + latitude + ',' + longitude +'&by=CAR';
 
         point.latitude = latitude;
         point.longitude = longitude;
@@ -520,7 +520,7 @@ function getPharmacyInfoByDate(near, guidance, area, point, most,self, kinds, da
         else pharmacy.dist = Math.round(getDistance(lat,lon,latitude,longitude).toFixed(3) * 1000);
         pharmacy.url = googleMapURL + latitude + "," + longitude;
         pharmacy.flag = 11;
-        pharmacy.naviurl = googleNaviURL + lat + "," + lon + "/" + latitude + "," + longitude;
+        pharmacy.naviurl = 'daummaps://route?sp=' + lat + ',' + lon + '&ep=' + latitude + ',' + longitude +'&by=CAR';
 
         point.latitude = latitude;
         point.longitude = longitude;
