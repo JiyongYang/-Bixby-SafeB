@@ -1,5 +1,0 @@
-enum (Order) {
-  description (첫 번째, 두 번째 구분 발화)
-  symbol (first)
-  symbol (second)
-}

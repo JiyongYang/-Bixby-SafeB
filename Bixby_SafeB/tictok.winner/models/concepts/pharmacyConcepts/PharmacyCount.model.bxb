@@ -1,3 +1,0 @@
-integer (PharmacyCount) {
-  description (__DESCRIPTION__)
-}

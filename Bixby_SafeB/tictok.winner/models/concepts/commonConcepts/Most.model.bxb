@@ -1,7 +1,0 @@
-enum (Most) {
-  description (가장, 제일 관련 발화)
-  symbol (most)
-  features{
-    transient
-  }
-}

@@ -1,6 +1,0 @@
-text (Date) {
-  description (요일 정보를 가지는 컨샙)
-  features{
-    transient
-  }
-}

@@ -1,3 +1,0 @@
-integer (HospitalCount) {
-  description (병원 개수)
-}

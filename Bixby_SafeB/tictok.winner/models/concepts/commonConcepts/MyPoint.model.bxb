@@ -1,4 +1,0 @@
-structure (MyPoint) {
-  description (내위치 좌표를 저장하는 structure)
-  role-of (geo.NamedPoint)
-}

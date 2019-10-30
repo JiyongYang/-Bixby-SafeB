@@ -1,6 +1,0 @@
-text (Hour) {
-  description (__DESCRIPTION__)
-  features{
-    transient
-  }
-}

@@ -1,6 +1,0 @@
-text (Area) {
-  description (지역명)
-  features{
-    transient
-  }
-}

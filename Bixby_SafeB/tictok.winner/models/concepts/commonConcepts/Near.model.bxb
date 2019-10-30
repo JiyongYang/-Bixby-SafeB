@@ -1,7 +1,0 @@
-enum (Near){
-  description (가까운 의미 관련 발화)
-  symbol (Nearby)
-  features{
-    transient
-  }
-}

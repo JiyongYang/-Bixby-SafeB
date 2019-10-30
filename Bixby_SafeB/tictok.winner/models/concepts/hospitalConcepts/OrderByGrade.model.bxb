@@ -1,7 +1,0 @@
-enum (OrderByGrade) {
-  description (등급순으로 보여주기 위한 컨샙)
-  symbol (dsec)
-  features{
-    transient
-  }
-}
