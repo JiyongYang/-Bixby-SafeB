@@ -1,0 +1,35 @@
+train (t-11trjj13iybe1bs6zdr39avoc) {
+  utterance ("[g:Results] (주변)[v:Near:Nearby]에서 (병원)[v:ServiceName:hospital] 좀 (찾아줘)[v:Guidance:Guide]")
+  plan (Y2BjEC3JTC7Jz9Yrz8zLSy3SC0otLs0pKUYXdk8t8cxLy2cQQxMuzUxJzEtOZRBCFfdLTSxikEQVC04tKstMTvVLzE1l4C3LLNMrTs1JA4rmpDGwMjAyMDEwM7AAWQxANgwiAAsQQ1QwAAA=)
+  last-modified (1571925353975)
+}
+train (t-191xpu297whja5au449k0rdnk) {
+  utterance ("[g:Hospital,r:GoToTheHospitalConcept] (가장)[v:Most:most] (가까운)[v:Near:Nearby] (정형외과)[v:Kinds] (찾아줘)[v:Guidance:Guide]")
+  plan (XY1NCsJADIVf/am6cKPoCVzPJVxUEV1oL1DaFAeHSemk9foO4oAzCXmQ7z0SrLAXXQu/1FtbS706seu0VAaHmBdccvmkYB/Z1tQJdnHqTm4w4lJckJxty+mvYtBN5e9gG/OLto3DJoZXdpKyG1U91qMelSPTqocXLJFhgilmmCPHwu/4kdDZl/xX7ifkvfMB)
+  last-modified (1572231714460)
+}
+train (t-1cgo4spnpv15joe29cknp6cg2) {
+  utterance ([g:GradeInfo] 병원 등급 정보가 뭐야)
+  plan (Y2BkEC/JTC7Jz9Yrz8zLSy3Scy9KTEn1zEvLZwABRhABAA==)
+  last-modified (1572174382304)
+}
+train (t-1dtgfirr0dzprvrbtzycyobjz) {
+  utterance ([g:PhoneNumber] 전화 걸어줘)
+  plan (Y2BkkCzJTC7Jz9Yrz8zLSy3SC8jIz0v1K81NSi1iAAFGEAEA)
+  last-modified (1571925397176)
+}
+train (t-1g4q9xl5cngx6ousgd8euo5ht) {
+  utterance ("[g:tictok.winner.Pharmacy,r:tictok.winner.GoToThePharmacyConcept] (가장)[v:tictok.winner.Most:most] (가까운)[v:tictok.winner.Near:Nearby] 거리 (약국)[v:tictok.winner.ServiceName:pharmacy] 좀 (보여줘)[v:tictok.winner.Guidance:Guide]")
+  plan (Xc3NCsIwDAfw//yYevAiKHj33JfwMDw4RPcCpWas2LXSZhPf3iIO7BJyyC8hwQo71ordQ7y0teTFpZG+leqNQ+qFq1zV0DA+OqvoydimW1cKneEw5oL4ZGs3/lV0+i7jHWxSP7vAYytJeuxTu5HvtaJStoR1r3sRyNRRTY0lMkwwxQxz5FjEHj8ZMvvKf+Sxhv04+QA=)
+  last-modified (1572238363918)
+}
+train (t-1r524t1vu4c6fdyc2uwidpms2) {
+  utterance ("[g:tictok.winner.Results] (내일)[v:Date] 하는 (내과)[v:tictok.winner.Kinds] (알려줘)[v:tictok.winner.Guidance:Guide]")
+  plan (XYrdCkBQEITH750b4jHOUyjJHU8gVm20ylm8vlOSmGmm6WsQI1cedJ3NySK0mZbsvqj944q0lmlF+sVlr4Tid9157GUgZF/esIwWycGHsbRMpnOFCB58BAjdgtuPX4Uu9wMX)
+  last-modified (1572249241249)
+}
+train (t-1soifl8w4x126qjd9n2x9wmqi) {
+  utterance ("[g:Results] 이 (근처)[v:Near:Nearby]에 (대피소)[v:ServiceName:shelter] 좀 (알려줘)[v:Guidance:Guide]")
+  plan (Y2BjEC3JTC7Jz9Yrz8zLSy3SC0otLs0pKUYXdk8t8cxLy2cQQxMuzUxJzEtOZRBCFfdLTSxikEQVC04tKstMTvVLzE1l4C3LLNMrTs1JA4rmpDGwMjAyMDEwM7AAWQxANgwiAAsQQ1QwAAA=)
+  last-modified (1572110580194)
+}

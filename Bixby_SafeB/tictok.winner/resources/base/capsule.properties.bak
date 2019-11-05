@@ -1,0 +1,9 @@
+## Set the config mode of this capsule
+# capsule.config.mode=default
+
+## Set configuration properties with `config.<mode>.<propertyKey>=<propertyValue>`
+## Use mode `default` for fallback property values
+# config.default.my.property.key=myValue 123
+
+# 우리 서버 url common 부분
+config.default.remote.url=http://ec2-13-209-7-223.ap-northeast-2.compute.amazonaws.com:8080/test_bixby_servlet/Bixsafe.do?

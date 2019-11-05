@@ -1,0 +1,20 @@
+action (GoToThePharmacyConcept) {
+  description (Results컨셉에서 Pharmacy 사이즈가 1일때 Pharmacy 컨샙으로 값 이동)
+  type(Constructor)
+  collect {
+    input (results) {
+      type (Results)
+      min (Optional) max (One)
+    }
+  }
+  output (Pharmacy){
+    on-empty{
+      halt{
+        dialog("알 수 없는 오류 입니다.")
+      }
+    }
+    evaluate{
+      $expr(results.pharmacy)
+    }
+  }
+}

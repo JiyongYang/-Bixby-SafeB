@@ -1,0 +1,187 @@
+layout-macro-def (Pharmacy_List_Macro) {
+  params {
+    param (pharmacy) {
+      type (Pharmacy)
+      min (Required) max (One)
+    }
+  }
+  content {
+    compound-card {
+      content {
+        title-area{
+          halign (Start)
+          slot2{
+            paragraph{
+              value("#{value(pharmacy.pharmacyname)}")
+              style(Title_S)
+            }
+          }
+          slot3{
+            paragraph{
+              value("#{value(pharmacy.address)}")
+              style(Detail_M)
+            }
+          }
+        }
+        divider
+        map-card {
+          aspect-ratio(16:9)
+          title-area {
+            slot1{
+              single-line{
+                image("/images/icons/red-marker.png")
+                spacer
+                text {
+                  value ("약국 위치")
+                  style (Title_XS)
+                  color (Red)
+                }
+                spacer
+                spacer
+                image("/images/icons/green-marker.png")
+                spacer
+                text {
+                  value ("내 위치")
+                  style (Title_XS)
+                  color (Green)
+                }
+              }
+            }
+            halign (End)
+          }
+          markers {
+            marker {
+              geo (pharmacy.point.point)
+              icon ("/images/icons/red-marker.png")
+              width (15)
+              height (20)
+              anchor-x (5)
+              anchor-y (15)
+              rotation (0)
+            }
+            marker {
+              geo (pharmacy.mypoint.point) 
+              icon ("/images/icons/green-marker.png")
+              width (20)
+              height (20)
+              anchor-x (5)
+              anchor-y (15)
+              rotation (0)
+            }
+          }
+        }
+        divider
+        single-line{
+          image("/images/icons/check-mark.png")
+          spacer
+          text {
+            value ("나와의 거리:")
+            style (Detail_M)
+          }
+          spacer
+          spacer
+          if(pharmacy.dist == 0){
+            text{
+              value("거리정보 없음")
+              style (Detail_M)
+            }
+          }else{
+            text{
+              value("[#{value(pharmacy.dist)} m]")
+              style (Detail_M)
+            }
+          }
+        }
+        divider
+        single-line{
+          image("/images/icons/check-mark.png")
+          spacer
+          if(pharmacy.dayofweek == 1){
+            text {
+              value ("일요일 운영시간:")
+              style (Detail_M)
+            }
+            spacer
+            spacer
+            text {
+              value ("[#{value(pharmacy.sunopentime)} ~ #{value(pharmacy.sunclosetime)}]")
+              style (Detail_M)
+            }
+          }
+          if(pharmacy.dayofweek == 2){
+            text {
+              value ("월요일 운영시간:")
+              style (Detail_M)
+            }
+            spacer
+            spacer
+            text {
+              value ("[#{value(pharmacy.monopentime)} ~ #{value(pharmacy.monclosetime)}]")
+              style (Detail_M)
+            }
+          }
+          if(pharmacy.dayofweek == 3){
+            text {
+              value ("화요일 운영시간:")
+              style (Detail_M)
+            }
+            spacer
+            spacer
+            text {
+              value ("[#{value(pharmacy.tueopentime)} ~ #{value(pharmacy.tueclosetime)}]")
+              style (Detail_M)
+            }
+          }
+          if(pharmacy.dayofweek == 4){
+            text {
+              value ("수요일 운영시간:")
+              style (Detail_M)
+            }
+            spacer
+            spacer
+            text {
+              value ("[#{value(pharmacy.wedopentime)} ~ #{value(pharmacy.wedclosetime)}]")
+              style (Detail_M)
+            }
+          }
+          if(pharmacy.dayofweek == 5){
+            text {
+              value ("목요일 운영시간:")
+              style (Detail_M)
+            }
+            spacer
+            spacer
+            text {
+              value ("[#{value(pharmacy.thuopentime)} ~ #{value(pharmacy.thuclosetime)}]")
+              style (Detail_M)
+            }
+          }
+          if(pharmacy.dayofweek == 6){
+            text {
+              value ("금요일 운영시간:")
+              style (Detail_M)
+            }
+            spacer
+            spacer
+            text {
+              value ("[#{value(pharmacy.friopentime)} ~ #{value(pharmacy.friclosetime)}]")
+              style (Detail_M)
+            }
+          }
+          if(pharmacy.dayofweek == 7){
+            text {
+              value ("토요일 운영시간:")
+              style (Detail_M)
+            }
+            spacer
+            spacer
+            text {
+              value ("[#{value(pharmacy.satopentime)} ~ #{value(pharmacy.satclosetime)}]")
+              style (Detail_M)
+            }
+          }
+        }
+      }
+    }
+  }
+}

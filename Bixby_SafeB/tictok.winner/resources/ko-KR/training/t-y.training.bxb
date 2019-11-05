@@ -1,0 +1,55 @@
+train (t-y3xpuxbucrotjc7mt9eul6vj5) {
+  utterance ("[g:Results] (가까운)[v:Near:Nearby] 위치에 있는 (안과)[v:Kinds] 좀 (알려줘)[v:Guidance:Guide]")
+  plan (Y2BjkCzISaxML8ovzUvRK8/My0st0gtKLS7NKSnGJuWeWuKZl5bPIIVFqjQzJTEvOZVBHFPOOzMvpZhBDFPCLzWxiIG3LLNMrzg1J00vGEgwsDIwMjAxMDOwAFkMQDYMIgALEENUMAAA)
+  last-modified (1571920337607)
+}
+train (t-y4sz75121mwhowvsisyhawkj8) {
+  utterance ("[g:Hospital,r:GoToTheHospitalConcept] (가장)[v:Most:most] (가까운)[v:Near:Nearby] 거리 (치과)[v:Kinds] (찾아줘)[v:Guidance:Guide]")
+  plan (XY1NCsJADIVf/am6cKPoCVzPJVxUEV1oL1DaFAeHSemk9foO4oAzCXmQ7z0SrLAXXQu/1FtbS706seu0VAaHmBdccvmkYB/Z1tQJdnHqTm4w4lJckJxty+mvYtBN5e9gG/OLto3DJoZXdpKyG1U91qMelSPTqocXLJFhgilmmCPHwu/4kdDZl/xX7ifkvfMB)
+  last-modified (1572232518621)
+}
+train (t-y5rx1h20blrcua0vodke49db0) {
+  utterance ("[g:Results] (근처)[v:Near:Nearby]에 있는 (산부인과)[v:Kinds] (찾아줘)[v:Guidance:Guide]")
+  plan (Y2BjkCzISaxML8ovzUvRK8/My0st0gtKLS7NKSnGJuWeWuKZl5bPIIVFqjQzJTEvOZVBHFPOOzMvpZhBDFPCLzWxiIG3LLNMrzg1J00vGEgwsDIwMjAxMDOwAFkMQDYMIgALEENUMAAA)
+  last-modified (1571919294950)
+}
+train (t-yd2qxd2ryz6v2orcr5vptjlny) {
+  utterance ("[g:Hospital,r:GoToTheHospitalConcept] (가장)[v:Most:most] (가까운)[v:Near:Nearby] 거리 (이비인후과)[v:Kinds] (찾아줘)[v:Guidance:Guide]")
+  plan (XY1NCsJADIVf/am6cKPoCVzPJVxUEV1oL1DaFAeHSemk9foO4oAzCXmQ7z0SrLAXXQu/1FtbS706seu0VAaHmBdccvmkYB/Z1tQJdnHqTm4w4lJckJxty+mvYtBN5e9gG/OLto3DJoZXdpKyG1U91qMelSPTqocXLJFhgilmmCPHwu/4kdDZl/xX7ifkvfMB)
+  last-modified (1572232519302)
+}
+train (t-ydk80m3748z2qizu5m288yh8z) {
+  utterance ("[g:Results] (주변)[v:Near:Nearby] (병원)[v:ServiceName:hospital] 중에 (안과)[v:Kinds] (알려줘)[v:Guidance:Guide]")
+  plan (XcpLCgIxEATQ8jO6cqMoeIlcQ0SYhZ4gZCrQGHsgycTrm41opouC7kdji2MWl8eneYsqo7kzTSGnOV+Yr+pHnGY8yWDVEYfWb6JDwr7Fnjbi3NqDsYhjb1/ErkgxicFXDR4bLLDECmt0dUe9fvmfrvb7hw8=)
+  last-modified (1571706446199)
+}
+train (t-yhcwkn34cfuuyjoyc8f9bbhbj) {
+  utterance ("[g:Results] 이 (근방)[v:Near:Nearby]에 (병원)[v:ServiceName:hospital] 있음 (보여줘)[v:Guidance:Guide]")
+  plan (Y2BjkCzISaxML8ovzUvRK8/My0st0gtKLS7NKSnGJuWeWuKZl5bPIIVFqjQzJTEvOZVBDFPOLzWxiEEWUzw4tagsMznVLzE3lYG3LLNMrzg1Jw0ompPGwMrAyMDEwMzAAmQxANkwiAAsQAxRwQAA)
+  last-modified (1571918444982)
+}
+train (t-yjgaw8o8qm3vclre09q1xn4rx) {
+  utterance ("[g:tictok.winner.Results] (내일)[v:tictok.winner.Date] (오후)[v:tictok.winner.AMorPM:PM] (5시)[v:tictok.winner.Hour]에 운영하는 (치과)[v:tictok.winner.Kinds] (알려줘)[v:tictok.winner.Guidance:Guide]")
+  plan (Y+BgEC3JTC7Jz9Yrz8zLSy3SC0otLs0pKUYXdk8t8cxLy2cQQRV29M0vCvBlEEIVdUksSWUQQzOgNDMlMS85FV2tR35pEYMwqph3Zl5KMQNvWWaZXnFqTppeMJBgYGdgZGBiYGZgYWBlYAPyGIB8ZIgK2IAYoZoBAA==)
+  last-modified (1572245994242)
+}
+train (t-ypugytxrv0uc7t9e4z4m1a6f6) {
+  utterance ("[g:Results] (근처)[v:Near:Nearby]에 (대피소)[v:ServiceName:shelter] 있음 (찾아줘)[v:Guidance:Guide]")
+  plan (Y2BjkCzISaxML8ovzUvRK8/My0st0gtKLS7NKSnGJuWeWuKZl5bPIIVFqjQzJTEvOZVBDFPOLzWxiEEWUzw4tagsMznVLzE3lYG3LLNMrzg1Jw0ompPGwMrAyMDEwMzAAmQxANkwiAAsQAxRwQAA)
+  last-modified (1571918494756)
+}
+train (t-ysvj1rxmgh7wtmqmp6lgssvsm) {
+  utterance ([g:NaviURL] 길 안내해줘)
+  plan (Y2BkEC3JTC7Jz9Yrz8zLSy3S80ssywwN8mEAAUYQAQA=)
+  last-modified (1572060019688)
+}
+train (t-ytfwq6jesrijyyllf26hedo8b) {
+  utterance ("[g:Results] (근처)[v:Near:Nearby] 위치에 있는 (비뇨기과)[v:Kinds] (알려줘)[v:Guidance:Guide]")
+  plan (Y2BjEC3JTC7Jz9Yrz8zLSy3SC0otLs0pKUYXdk8t8cxLy2cQQxMuzUxJzEtOZRBGFffOzEspZhBCFfRLTSxi4C3LLNMrTs1J0wsGEgysDIwMTAzMDCxAFgOQDYMIwALEEBUMAA==)
+  last-modified (1571925635570)
+}
+train (t-ywcq0d4wmpxvie823nepz0rlj) {
+  utterance ("[g:Hospital,r:GoToTheHospitalConcept] (제일)[v:Most:most] (가까운)[v:Near:Nearby] (내과)[v:Kinds] 있으면 (알려줘)[v:Guidance:Guide]")
+  plan (XY1NCsJADIVf/am6cKPoCVzPJVxUEV1oL1DaFAeHSemk9foO4oAzCXmQ7z0SrLAXXQu/1FtbS706seu0VAaHmBdccvmkYB/Z1tQJdnHqTm4w4lJckJxty+mvYtBN5e9gG/OLto3DJoZXdpKyG1U91qMelSPTqocXLJFhgilmmCPHwu/4kdDZl/xX7ifkvfMB)
+  last-modified (1572239034370)
+}

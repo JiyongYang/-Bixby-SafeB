@@ -1,0 +1,17 @@
+structure (Results) {
+  description (모든 결과를 담는 structure)
+  property (shelter){
+    type (Shelter)
+    min (Optional) max (Many)
+  }
+  property (hospital){
+    type (Hospital)
+    min (Optional) max (Many)
+  }
+
+  property (pharmacy){
+    type (Pharmacy)
+    min (Optional) max (Many)
+  }
+  
+}

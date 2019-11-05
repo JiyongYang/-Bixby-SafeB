@@ -1,0 +1,14 @@
+vocab(ServiceName){
+  "shelter"{
+    "지진 대피소"
+    "해일 대피소"
+    "헤일 대피소"
+    "대피소"
+  }
+  "hospital"{
+    "병원"
+  }
+  "pharmacy"{
+    "약국"
+  }
+}

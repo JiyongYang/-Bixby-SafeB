@@ -1,0 +1,67 @@
+structure (Shelter) {
+  description (대피소 결과를 담는 structure)
+  property (username) { 
+    type (UserName)
+    min (Optional) max (One)
+  }
+
+  property (area){
+    type (Area)
+    min (Optional) max (One)
+  }
+  
+  property (sheltername) { 
+    type (ShelterName)
+    min (Required) max (One)
+  }
+  
+  property (address) { 
+    type (Address)
+    min (Required) max (One)
+  }
+  
+  property (url) { 
+    type (URL)
+    min (Optional) max (One)
+  }
+
+  property (point) {
+    type (Point)
+    min (Optional) max (One)
+  }
+
+  property (mypoint){
+    type (MyPoint)
+    min (Required) max (One)
+  }
+
+  property (dist){ 
+    type (Dist)
+    min (Optional) max (One)
+  }
+  
+  property (naviurl){
+    type (NaviURL)
+    min (Optional) max (One)
+  }
+
+  property (flag) {
+    type (Flag)
+    min (Optional) max (One)
+  }
+
+  property (managementname){
+    type (ManagementName)
+    min (Optional) max (One)
+  }
+ 
+  property (sheltercount){
+    type (ShelterCount)
+    min (Optional) max (One)
+  }
+
+  property (phonenumber){ 
+    type (PhoneNumber)
+    min (Optional) max (One)
+  }
+}

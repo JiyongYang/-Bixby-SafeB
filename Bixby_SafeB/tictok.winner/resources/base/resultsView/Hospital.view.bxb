@@ -1,0 +1,40 @@
+result-view {
+  match: Hospital(this)
+  message{
+    if(this.flag == 4){
+      template ("가장 가까운 병원 정보를 확인하세요.")
+    }else{
+      template ("병원 정보를 확인하세요.")
+    }
+  }
+  render{
+    layout{
+      layout-macro (Hospital_Map_Macro){
+        param(hospital){
+          expression (this)
+        }
+      }
+      layout-macro (Hospital_Grade_Info_Macro){
+        param (hospital){
+          expression (this)
+        }
+      }
+      layout-macro (Hospital_Info_Macro){
+        param(hospital){
+          expression (this)
+        }
+      }
+    }
+  }
+  conversation-drivers{
+    conversation-driver{
+      template ("지도로 보여줘")
+    }
+    conversation-driver{
+      template ("길 안내 해줘")
+    }
+    conversation-driver{
+      template ("전화 걸어줘")
+    }
+  }
+}

@@ -1,0 +1,35 @@
+train (t-z2tkp2svcffu75ipj1dviuzy4) {
+  utterance ("[g:Results] (토요일)[v:Date] (오전)[v:AMorPM:AM] (11시)[v:Hour]에 하는 (병원)[v:ServiceName:hospital] (알려줘)[v:Guidance:Guide]")
+  plan (bYxLCgIxEETL3+jGrajgFXIHQVAXI6InCDOdIRA7kp94e7NTSbrpRdWraiyweRr5HpyN3IuXZiYnbuSjCb6GjhTOrCzWJdq31l1brEpykIGwrTyLupfcUa1zstFhV/p3ckl3dJEPwjLpJDwZlV2jMMcIY0wwxQxNVsj6d/+nyfdN4wM=)
+  last-modified (1572075682583)
+}
+train (t-z6a8y6dlooricjqkhdhq9a61c) {
+  utterance ("[g:Results] (주변)[v:Near:Nearby]에 (산부인과)[v:Kinds] 있음 (찾아줘)[v:Guidance:Guide]")
+  plan (Y2BjkCzISaxML8ovzUvRK8/My0st0gtKLS7NKSnGJuWeWuKZl5bPIIVFqjQzJTEvOZVBHFPOOzMvpZhBDFPCLzWxiIG3LLNMrzg1J00vGEgwsDIwMjAxMDOwAFkMQDYMIgALEENUMAAA)
+  last-modified (1571918826452)
+}
+train (t-zd0e71tl3dznh7ze4ismppown) {
+  utterance ("[g:Results] (주변)[v:Near:Nearby]에서 (성형외과)[v:Kinds] (찾아줘)[v:Guidance:Guide]")
+  plan (Y2BjkCzISaxML8ovzUvRK8/My0st0gtKLS7NKSnGJuWeWuKZl5bPIIVFqjQzJTEvOZVBHFPOOzMvpZhBDFPCLzWxiIG3LLNMrzg1J00vGEgwsDIwMjAxMDOwAFkMQDYMIgALEENUMAAA)
+  last-modified (1571922716556)
+}
+train (t-zd5rqgf2ryug5e211sn1g2t16) {
+  utterance ("[g:Hospital] (두 번째)[v:Order:second] 병원 정보 보여줘")
+  plan (Y2BhECvJTC7Jz9Yrz8zLSy3S88gvLsgsScxhUEIVd0wuyczPC07NSU0ugasRRlXjX5SSWsQgiioYlFpcmlNSzMDMwMjABCQZgDQIQgATBAMA)
+  last-modified (1572059518999)
+}
+train (t-zecfadz53l7iz3c8ibh6vr90h) {
+  utterance ("[g:Results] (오늘)[v:Date] 하는 (병원)[v:ServiceName:hospital] (알려줘)[v:Guidance:Guide]")
+  plan (Y2BjEC3JTC7Jz9Yrz8zLSy3SC0otLs0pKUYXdk8t8cxLy2cQQhV2SSxJZRBDU1qamZKYl5zKIIkqHpxaVJaZnOqXmJvKwFuWWaZXnJqTBhTNSWNgZWBkYGJgZmABshiAbBhEABYghqhgAAA=)
+  last-modified (1572257460592)
+}
+train (t-zn83l1lalor31o1g1xddb2d75) {
+  utterance ("[g:Results] (가까운)[v:Near:Nearby] (이비인후과)[v:Kinds] (보여줘)[v:Guidance:Guide]")
+  plan (Y2BjkCzISaxML8ovzUvRK8/My0st0gtKLS7NKSnGJuWeWuKZl5bPIIVFqjQzJTEvOZVBHFPOOzMvpZhBDFPCLzWxiIG3LLNMrzg1J00vGEgwsDIwMjAxMDOwAFkMQDYMIgALEENUMAAA)
+  last-modified (1571834993923)
+}
+train (t-zv5l67cj4h35qnfx07d1ndr62) {
+  utterance ([g:NaviURL] 길 찾아줘)
+  plan (Y2BkEC3JTC7Jz9Yrz8zLSy3S80ssywwN8mEAAUYQAQA=)
+  last-modified (1572060092654)
+}

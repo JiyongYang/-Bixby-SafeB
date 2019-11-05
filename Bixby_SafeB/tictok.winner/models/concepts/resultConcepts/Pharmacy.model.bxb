@@ -1,0 +1,111 @@
+structure (Pharmacy) {
+  description (약국의 정보를 담는 구조체)
+  property (address) {
+    type (Address)
+    min (Optional) max (One)
+  }
+  property (pharmacyname){
+    type (PharmacyName)
+    min (Optional) max (One)
+  }
+  property (dist){ 
+    type (Dist)
+    min (Optional) max (One)
+  }
+  property (grade){ 
+    type (Grade)
+    min (Optional) max (One)
+  }
+  property (tel){ 
+    type (Tel)
+    min (Optional) max (One)
+  }
+  property (monopentime){ 
+    type (MonOpenTime)
+    min (Optional) max (One)
+  }
+  property (monclosetime){ 
+    type (MonCloseTime)
+    min (Optional) max (One)
+  }
+  property (tueopentime){ 
+    type (TueOpenTime)
+    min (Optional) max (One)
+  }
+  property (tueclosetime){ 
+    type (TueCloseTime)
+    min (Optional) max (One)
+  }
+  property (wedopentime){ 
+    type (WedOpenTime)
+    min (Optional) max (One)
+  }
+  property (wedclosetime){ 
+    type (WedCloseTime)
+    min (Optional) max (One)
+  }
+  property (thuopentime){ 
+    type (ThuOpenTime)
+    min (Optional) max (One)
+  }
+  property (thuclosetime){ 
+    type (ThuCloseTime)
+    min (Optional) max (One)
+  }
+  property (friopentime){ 
+    type (FriOpenTime)
+    min (Optional) max (One)
+  }
+  property (friclosetime){ 
+    type (FriCloseTime)
+    min (Optional) max (One)
+  }
+  property (satopentime){ 
+    type (SatOpenTime)
+    min (Optional) max (One)
+  }
+  property (satclosetime){ 
+    type (SatCloseTime)
+    min (Optional) max (One)
+  }
+  property (sunopentime){ 
+    type (SunOpenTime)
+    min (Optional) max (One)
+  }
+  property (sunclosetime){ 
+    type (SunCloseTime)
+    min (Optional) max (One)
+  }
+  property (point){ 
+    type (Point)
+    min (Required) max (One)
+  }
+  property (mypoint){
+    type (MyPoint)
+    min (Required) max (One)
+  }
+  property (username) { 
+    type (UserName)
+    min (Optional) max (One)
+  }
+  property (url) { 
+    type (URL)
+    min (Optional) max (One)
+  }
+  property (naviurl){
+    type (NaviURL)
+    min (Optional) max (One)
+  }
+  property (flag) {
+    type (Flag)
+    min (Optional) max (One)
+  }
+  property (pharmacycount){
+    type (PharmacyCount)
+    min (Optional) max (One)
+  }
+  property (dayofweek){
+    type (DayOfWeek)
+    min (Optional) max (One)
+  }
+}

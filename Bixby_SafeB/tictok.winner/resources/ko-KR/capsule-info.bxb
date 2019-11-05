@@ -1,0 +1,17 @@
+capsule-info {
+  display-name (세이프비)
+  dispatch-name (세이프비)
+  dispatch-aliases{
+    alias (세이프 비)
+  }
+  search-keywords{
+    keyword (병원)
+    keyword (대피소)
+    keyword (약국)
+  }
+  developer-name (SSAFY tictok)
+  icon-asset (/images/icons/safeb-logo-circle.png)
+  privacy-policy-url(https://github.com/JiyongYang/-Bixby-SafeB/blob/master/Bixby_SafeB/privacy-policy-url.md)
+  terms-url (https://github.com/JiyongYang/-Bixby-SafeB)
+  description ("세이프비는 사용자 위치기반으로 병원, 약국, 긴급 대피소 운영시간, 위치정보를 제공합니다. :: API, icons 출처 - github link 참고")
+}

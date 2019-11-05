@@ -1,0 +1,35 @@
+result-view {
+  match: Pharmacy(this)
+  message{
+    if(this.flag == 4){
+      template ("가장 가까운 약국 정보를 확인하세요.")
+    }else{
+      template ("약국 정보를 확인하세요.")
+    }
+  }
+  render{
+    layout{
+      layout-macro (Pharmacy_Map_Macro){
+        param(pharmacy){
+          expression (this)
+        }
+      }
+      layout-macro (Pharmacy_Info_Macro){
+        param(pharmacy){
+          expression (this)
+        }
+      }
+    }
+  }
+  conversation-drivers{
+    conversation-driver{
+      template ("지도로 보여줘")
+    }
+    conversation-driver{
+      template ("길 안내 해줘")
+    }
+    conversation-driver{
+      template ("전화 걸어줘")
+    }
+  }
+}

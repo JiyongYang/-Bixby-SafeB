@@ -1,0 +1,3 @@
+text (ManagementName) {
+  description (대피소 담당자 이름)
+}

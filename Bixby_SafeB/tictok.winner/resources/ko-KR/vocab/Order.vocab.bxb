@@ -1,0 +1,9 @@
+vocab(Order){
+ "first"{
+    "첫 번째"
+    "처음"
+  }
+  "second"{
+    "두 번째"
+  }
+}
